@@ -78,10 +78,10 @@
     PlayerCell *cell = (PlayerCell *)[tableView
                                       dequeueReusableCellWithIdentifier:@"PlayerCell"];
 	Player *player = [self.players objectAtIndex:indexPath.row];
-	cell.nameLabel.text = player.name;
-	cell.gameLabel.text = player.game;
-	cell.ratingImageView.image = [self
-                                  imageForRating:player.rating];
+	//cell.nameLabel.text = player.name;
+	//cell.gameLabel.text = player.game;
+	//cell.ratingImageView.image = [self
+    //                              imageForRating:player.rating];
     return cell;
 }
 
